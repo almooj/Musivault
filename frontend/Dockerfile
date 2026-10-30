@@ -22,7 +22,7 @@ COPY . .
 RUN npm run build
 
 # Production stage with Nginx
-FROM nginx:alpine
+FROM arm64v8/nginx
 
 # Re-declare build args
 ARG VERSION
