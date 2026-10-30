@@ -15,7 +15,7 @@ on:
       platforms:
         description: 'Target platforms (comma-separated)'
         required: false
-        default: 'linux/amd64'
+        default: 'linux/arm64'
         type: string
 
 env:
